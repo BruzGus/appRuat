@@ -1,10 +1,46 @@
 # TEST RUAT
-En este proyecto pretende automatizar las pruebas a una aplicacion movil, para este ejemplo eligio al app del RUAT
+En este proyecto pretende automatizar una prueba  a una aplicacion movil, para este ejemplo eligio al app del RUAT
 
-## BRYAN AUGUSTO CRUZ CASTRO 
+## INSTALACION
+
+[APP RUAT](https://play.google.com/store/apps/details?id=bo.gob.ruat.ruatmovil&hl=es_419)
+
+
+## EJECUTANDO PRUEBAS
+
+Las dependencias utilizadas en este proyecto seran actualizadas al momento de la clonacion del proyecto.
+
+## PRUEBA UNITARIA
+
+No olvidar cambiar los atributos:
+**deviceName** y
+**platformVersion**
+ de la Clase ANDROID
+
+
+En la prueba colocar en la variable tu resultado esperado
+
+```
+String expectResult="123456789"
+```
+
+Colocar Número de placa.
+```
+String controlBoard="1234XYZ";
+```
+
+Atributos para el server de appium, estos atributos deben ser configurados según el dispositivo al que se realizara las pruebas.
+Estos atributos se encuentra en la clase Android.
+
+
+Por defecto las pruebas se realizan para dispositvos ANDROID
+
+## Autor
+* BRYAN AUGUSTO CRUZ CASTRO
+
 
 ## Desarrollado en
 
-junit
-gradle
-appium
++ [junit](https://mvnrepository.com/artifact/org.junit.jupiter) 
++ [gradle](https://gradle.org/)
++ [appium](https://mvnrepository.com/artifact/io.appium/java-client/7.3.0)
